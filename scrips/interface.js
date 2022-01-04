@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener('DOMContentLoaded',()=>{
 
     let squares = document.querySelectorAll(".square");
@@ -19,12 +17,14 @@ function handleClick(event){
     if (handleMove(position)){
 
         setTimeout(()=>{
-            alert ("O jogo acabou! - O Vencedor Foi o jogador " + playerTime)
+            alert ("O jogo acabou! - O Vencedor Foi o jogador " + playerTime);
 
         }, 10);
+
         
     };
     updateSquares(position);
+    
 
 }
 
@@ -48,3 +48,4 @@ function updateSquares(position){
     })
 
 } */
+

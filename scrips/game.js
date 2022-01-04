@@ -1,5 +1,3 @@
-// iniciar variaveis 
-
 
 let board = ['','','','','','','','','']
 let playerTime = 0;
@@ -28,11 +26,9 @@ function handleMove(position) {
 
         gameOver = isWin();
 
-
         if(gameOver == false) {
 
             playerTime = (playerTime == 0)? 1 : 0;
-
 
 /*             if(playerTime == 0) {
                 playerTime = 1;
@@ -46,10 +42,7 @@ function handleMove(position) {
 
 }
 
-
 function isWin() {
-
-
 
     for(let i =0; i<winStates.length; i++) {
         let seq = winStates[i];
