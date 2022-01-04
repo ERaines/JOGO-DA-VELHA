@@ -16,12 +16,25 @@ function handleClick(event){
     let square = event.target;
     let position = square.id;
 
-    handleMove(position);
-    updateSquares();
+    if (handleMove(position)){
+
+        setTimeout(()=>{
+            alert ("O jogo acabou! - O Vencedor Foi o jogador " + playerTime)
+
+        }, 10);
+        
+    };
+    updateSquares(position);
 
 }
 
-function updateSquares() {
+function updateSquares(position){
+    let square = document.getElementById(position.toString());
+    let symbol = board[position];
+    square.innerHTML = `<div class='${symbol}'></div`
+}
+
+/* function updateSquares() {
 
     let squares = document.querySelectorAll(".square");
 
@@ -34,4 +47,4 @@ function updateSquares() {
         }
     })
 
-}
+} */
