@@ -9,6 +9,6 @@ Para praticar HTML, CSS e JS criado dentro das aulas do curso #PROGRAMADORBR.
 
 <h3>Exemplo</h3>
 
-<img src="https://github.com/ERaines/JOGO-DA-VELHA/blob/main/jogoDaVelha.png?" alt="print" width="700"/>
+<img src="https://github.com/ERaines/JOGO-DA-VELHA/blob/main/jogoDaVelha.png?" alt="print" width="400"/>
 
  
