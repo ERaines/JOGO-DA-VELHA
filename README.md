@@ -5,7 +5,6 @@
 
 Para praticar HTML, CSS e JS criado dentro das aulas do curso #PROGRAMADORBR.
 
-<h3>Planejamento Futuro</h3>
 
 <h3>Exemplo</h3>
 
